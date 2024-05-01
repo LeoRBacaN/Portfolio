@@ -17,7 +17,7 @@
       <nav>
         <div class="nav__container">
           <img class="logo" src="./assets/Library.svg" alt="Logo" />
-          
+
           <ul class="nav__links">
             <li><a href="#" class="nav__link">Home</a></li>
             <li><a href="#" class="nav__link">Contact</a></li>
@@ -25,31 +25,36 @@
               <a href="#features" class="nav__link nav__link--primary">Books</a>
             </li>
           </ul>
-          
-          
+
           <button class="button__menu" onclick="openMenu()">
             <i class="fas fa-bars"></i>
           </button>
           <div class="menu__backdrop">
-            <button class="button__menu button__menu--close" onclick="closeMenu()">
+            <button
+              class="button__menu button__menu--close"
+              onclick="closeMenu()"
+            >
               <i class="fas fa-times"></i>
             </button>
-            <ul Class="menu__links">
+            <ul class="menu__links">
               <li class="menu__list">
                 <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
               </li>
               <li class="menu__list">
-                <a href="#features" class="menu__link" onclick="closeMenu()">Books</a>
+                <a href="#features" class="menu__link" onclick="closeMenu()"
+                  >Books</a
+                >
               </li>
               <li class="menu__list">
-                <a class="menu__link no-cursor" onclick="closeMenu()">Contact</a>
+                <a class="menu__link no-cursor" onclick="closeMenu()"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
         </div>
-
-
       </nav>
+
       <header>
         <div class="header__container">
           <div class="header__description">
@@ -368,10 +373,26 @@
             </figure>
           </a>
           <div class="footer__list">
-            <a href="#landing" class="footer__link link__hover-effect link__hover-effect-white">Home</a>
-            <a href="" class="footer__link no-cursor link__hover-effect link__hover-effect-white">About</a>
-            <a href="#features" class="footer__link link__hover-effect link__hover-effect-white">Books</a>
-            <a href="" class="footer__link no-cursor link__hover-effect link__hover-effect-white">Contact</a>
+            <a
+              href="#landing"
+              class="footer__link link__hover-effect link__hover-effect-white"
+              >Home</a
+            >
+            <a
+              href=""
+              class="footer__link no-cursor link__hover-effect link__hover-effect-white"
+              >About</a
+            >
+            <a
+              href="#features"
+              class="footer__link link__hover-effect link__hover-effect-white"
+              >Books</a
+            >
+            <a
+              href=""
+              class="footer__link no-cursor link__hover-effect link__hover-effect-white"
+              >Contact</a
+            >
           </div>
           <div class="foot__copyright">Copyright &copy; 2024 Library</div>
         </div>
